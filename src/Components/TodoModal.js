@@ -111,7 +111,7 @@ function TodoModal({ type, modalOpen, setModalOpen, todo }) {
             </motion.div>
             <form className={styles.form} onSubmit={(e) => handleSumbit(e)}>
               <h1 className={styles.formTitle}>
-                {type === "update" ? "Update" : "add"} Task
+                {type === "update" ? "Update" : "add"}
               </h1>
               <label htmlFor="title">
                 What To Do
@@ -136,7 +136,7 @@ function TodoModal({ type, modalOpen, setModalOpen, todo }) {
               </label>
               <div className={styles.buttonContainer}>
                 <Button type="submit" variant="primary">
-                  {type === "update" ? "Update" : "Add"} Task
+                  {type === "update" ? "Update" : "Add"}
                 </Button>
                 <Button
                   type="button"
