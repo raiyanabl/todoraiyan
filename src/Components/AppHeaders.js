@@ -21,7 +21,7 @@ export default function AppHeader() {
       </Button>
       <SelectButton id="status" value={filterStatus} onChange={updatedFilter}>
         <option value="all">All</option>
-        <option value="incomplete">Incomplete</option>
+        <option value="incomplete">Active</option>
         <option value="complete">Complete</option>
       </SelectButton>
       <TodoModal type="add" modalOpen={modalOpen} setModalOpen={setModalOpen} />
