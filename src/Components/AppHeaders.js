@@ -17,7 +17,7 @@ export default function AppHeader() {
   return (
     <div className={styles.appHeader}>
       <Button variant="primary" onClick={() => setModalOpen(true)}>
-        Add Task
+        Add
       </Button>
       <SelectButton id="status" value={filterStatus} onChange={updatedFilter}>
         <option value="all">All</option>
