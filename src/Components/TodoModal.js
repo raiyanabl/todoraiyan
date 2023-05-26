@@ -130,7 +130,7 @@ function TodoModal({ type, modalOpen, setModalOpen, todo }) {
                   value={status}
                   onChange={(e) => setStauts(e.target.value)}
                 >
-                  <option value="incomplete">Incomplete</option>
+                 
                   <option value="complete">Complete</option>
                 </select>
               </label>
