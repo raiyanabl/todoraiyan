@@ -47,7 +47,7 @@ function TodoModal({ type, modalOpen, setModalOpen, todo }) {
   const handleSumbit = (e) => {
     e.preventDefault();
     if (title === "") {
-      toast.error("Please enter a title.");
+      toast.error("Please enter What to Do");
       return;
     }
     if (title && status) {
@@ -60,7 +60,7 @@ function TodoModal({ type, modalOpen, setModalOpen, todo }) {
             time: new Date().toLocaleDateString(),
           })
         );
-        toast.success("Task Added Successfully");
+        toast.success("Successfully");
         setModalOpen(false);
       }
       if (type === "update") {
@@ -73,7 +73,7 @@ function TodoModal({ type, modalOpen, setModalOpen, todo }) {
             })
           );
         } else {
-          toast.error("No Changes Made");
+          toast.error("No Changes");
           return;
         }
       }
