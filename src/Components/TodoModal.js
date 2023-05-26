@@ -114,7 +114,7 @@ function TodoModal({ type, modalOpen, setModalOpen, todo }) {
                 {type === "update" ? "Update" : "add"} Task
               </h1>
               <label htmlFor="title">
-                Title
+                What To Do
                 <input
                   value={title}
                   type="text"
