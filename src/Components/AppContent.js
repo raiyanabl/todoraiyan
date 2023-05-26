@@ -49,7 +49,7 @@ export default function AppContent() {
           filterTodoList.map((todo) => <TodoItem key={todo.id} todo={todo} />)
         ) : (
           <motion.p className={styles.emptyText} variants={child}>
-            No Todo Found
+            Empty
           </motion.p>
         )}
       </AnimatePresence>
